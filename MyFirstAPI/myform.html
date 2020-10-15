@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+	<form method="POST" action="http://localhost:8080/MyFirstAPI/submit">
+		Username:<input type="text" name="username"/><br>
+		Password:<input type="password" name="password"/><br>
+		<br>
+		<div>
+			Favorite Food?<br>
+			Onion<input type="radio" name="food" value="onion"/><br>
+			Beet<input type="radio" name="food" value="beet"/><br>
+			Potato<input type="radio" name="food" value="potato"/>
+		</div>
+		<br>
+		<div>
+			Spoken Languages?<br>
+			English<input type="checkbox" name="language" value="English"/><br>
+			Spanish<input type="checkbox" name="language" value="Spanish"/><br>
+			Arabic<input type="checkbox" name="language" value="Arabic"/><br>
+			Chinese<input type="checkbox" name="language" value="Chinese"/>
+		</div>
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>

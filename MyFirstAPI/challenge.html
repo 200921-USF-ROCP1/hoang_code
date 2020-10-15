@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+	<form method="POST" action="http://localhost:8080/BankingAPI/register">
+		<h2>Register</h2>
+		Username: <input type="text" name="username"/><br><br>
+		Password: <input type="password" name="password"/><br><br>
+		First Name: <input type="text" name="firstName"/><br><br>
+		Last Name: <input type="text" name="lastName"/><br><br>
+		Email: <input type="email" name="email"/><br><br>
+		<label for="role">Role: </label>
+		<select name="role">
+			<option value="Admin">Admin</option>
+			<option value="Admin">Employee</option>
+			<option value="Admin">Standard</option>
+			<option value="Admin">Premium</option>
+		</select>
+		<br><br>
+		<input type="submit" value="Register">
+	</form>
+	<br>
+	<form method="GET" action="http://localhost:8080/BankingAPI/login">
+		<input type="submit" value="Return to Login">
+	</form>
+</body>
+</html>
